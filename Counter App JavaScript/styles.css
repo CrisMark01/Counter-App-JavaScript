@@ -1,0 +1,67 @@
+body {
+    background-image:url('sources/ai-generated-space-themed-wallpapers-wallpapers-collection-of-astronaut-looking-at-the-moon-free-photo.jpg') ;
+
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+background:black;
+    max-width: 50%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: azure;
+}
+
+h2 {
+font-size: 50px;
+margin-top: 0;
+margin-bottom: 20px;
+color: whitesmoke;
+
+}
+
+button {
+    background-color: #0056b3;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+
+#save-btn {
+    background-color: darkgreen;
+}
+
+p {
+    font-size: 35px;
+    color: #0056b3
+}
